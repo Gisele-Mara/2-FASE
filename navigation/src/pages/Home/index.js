@@ -14,6 +14,18 @@ export default function Home() {
                     navigation.navigate('Sobre', { name: 'Jane' })
                 }
             />
+            <Button
+                title="Navegar para abas"
+                onPress={() =>
+                    navigation.navigate('Abas', { name: 'Joey' })
+                }
+            />
+            <Button
+                title="VAI"
+                onPress={() =>
+                    navigation.navigate('Testou', { name: 'Joey' })
+                }
+            />
         </View>
 
     )
